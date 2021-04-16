@@ -21,3 +21,4 @@ def index(request):
 
     form = ImageForm()
     return render(request, 'index.html', {'form': form, 'pics': pictures})
+    
